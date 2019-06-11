@@ -1,0 +1,225 @@
+/*header section*/
+
+
+#header {
+top: 0px;
+background-color: black;
+height: 15%;
+line-height: 14%;
+width: 100%;
+left: 0;
+border-bottom:1px solid #F77F00;
+position: fixed !important;
+z-index: 10;
+
+}
+
+
+#header-title {
+display: block;
+float: left;
+padding-left: 20px;
+vertical-align: left;
+position: fixed;
+}
+
+
+
+
+
+
+#header a {
+  color: #6320EE; /*cool blue für allg. Texte*/
+  text-decoration: none;
+position:relative;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
+
+
+#header a:hover {
+  color: #F77F00; /*Fresh Orange für hover*/
+}
+
+
+
+
+#header-nav{
+display: block;
+float: right;
+margin-top: 8%;
+
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+
+
+
+
+#header hr{
+
+margin: 0 auto;
+color: #F77F00;
+}
+
+
+.container1 {
+  max-width: none;
+  margin: 0 auto;
+  display:inline-block;
+  position:relative;
+}
+
+
+
+/*Menu-Left*/
+
+#myMenu {
+  list-style-type: none;
+  padding: auto;
+  margin: Left;
+  height: auto; width: 10%;
+  left: -2%;
+  bottom:auto;
+  top:13.3%;
+  height:100%;
+  z-index: 5;
+  float: left;
+  position: fixed !important;
+  overflow.x: hidden;
+}
+
+
+
+
+
+#myMenu li a {
+  background-color: #black;
+  padding: 5%;
+  text-decoration: none;
+  font-size: 220%;
+  color: #6320EE;
+  display: block;
+  z-index: 5;
+  border-bottom: 1px solid #F77F00;
+  border-right: 1px solid #F77F00 ;
+  border-top: 1px solid #F77F00 ;
+  border-left:  1px solid #F77F00 ;
+
+}
+
+
+
+#myMenu li a:hover {
+color: #F77F00;
+}
+
+
+
+
+
+
+
+
+
+
+/*Whole content*/
+
+body {
+  color: #6320EE ;
+  margin: 0;
+ background: url(images/moon11.jpg) no-repeat center center fixed;
+
+}
+
+
+#content {
+margin-left: 400px;
+margin-top: 150px;
+top:15%;
+height:auto;
+position:relative;
+overflow:auto;
+width:50%;
+padding-bottom: 160px;
+z-index: 2;
+font-family: sans-serif;
+line-height: 1.4em;
+}
+
+
+.post-title  {
+  border-bottom: 1px solid #F77F00;
+  border-right: 1px solid #F77F00 ;
+  border-top: 1px solid #F77F00 ;
+  border-left:  1px solid #F77F00 ;
+}
+
+
+
+
+/*Footer part */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  border-bottom:1px solid #F77F00;
+border-top:1px solid #F77F00;
+z-index: 10;
+font-family: sans-serif;
+}
+
+
+
+.container {
+  min-width: 700px;
+  display:inline-block;
+  align:left;
+  margin-left: 5px; /*negative half the width */
+  background:black;
+}
+
+
+
+.column {
+min-width: 300px;
+margin-left: auto;
+display:inline;
+align:left;
+}
+
+
+
+#footer h4{
+color: #6320EE
+text-transform: uppercase;
+letter-spacing: 0.1em;
+display: inline;
+}
+
+
+#footer p {
+  color: #6320EE
+  display: none;
+}
+
+
+#footer a:hover {
+color: #F77F00;
+}
+
+
+.flex {
+position: fixed;
+margin-left: auto;
+right: 30%;
+margin-top: auto;
+bottom: 0.5%;
+}
